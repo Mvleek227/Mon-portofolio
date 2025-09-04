@@ -106,18 +106,19 @@ Ce schéma illustre le flux complet de mon système de messagerie interne basé 
 
 ```mermaid
 sequenceDiagram
-    participant U as Utilisateur (Thunderbird/Webmail)
+    participant U as Utilisateur (Navigateur Web)
+    participant R as Roundcube (Webmail)
     participant P as Postfix (MTA)
     participant D as Dovecot (IMAP/POP3)
-    participant R as Roundcube (Webmail)
     participant I as Internet
 
-    U->>P: Envoi Email (SMTP)
+    U->>R: Connexion via navigateur
+    R->>P: Envoi Email (SMTP)
     P->>I: Transfert vers Internet
     I->>P: Réception Email
     P->>D: Stockage Mail
-    U->>D: Récupération Mail (IMAP/POP3)
-    U->>R: Accès via navigateur
+    R->>D: Récupération Mail (IMAP)
+
 ```
 
 **Fonctionnement et flux :** 
