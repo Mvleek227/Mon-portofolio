@@ -121,13 +121,15 @@ sequenceDiagram
 
 ```
 
-**Fonctionnement et flux :** 
-- Le serveur gère l’envoi et la réception des emails pour tous les utilisateurs.  
-- Dovecot permet la récupération sécurisée des emails, et Roundcube offre un accès webmail simple pour les utilisateurs.  
-- Le schéma illustre le flux centralisé de messagerie et la gestion des utilisateurs.  
-- Même simplifié, il montre que je maîtrise la configuration et la sécurité des services de messagerie Linux.  
+Le schéma illustre le fonctionnement de notre système de messagerie interne. L’utilisateur accède au webmail Roundcube via un navigateur. Roundcube communique avec :
+
+•Postfix (MTA) pour l’envoi et la réception des emails,
+
+•Dovecot (IMAP/POP3) pour le stockage et la récupération des messages.
+
+Cette architecture permet à tout utilisateur d’envoyer et de recevoir des emails de manière sécurisée, et le système reste compatible avec d'autres clients mail standard (Thunderbird, etc) si nécessaire.
 
 **Bénéfices :**
 - Messagerie interne fonctionnelle et sécurisée  
 - Gestion simple des comptes utilisateurs  
-- Démonstration de compétences en administration de serveurs Linux et services email
+- Nouvelles aptitudes en administration de serveurs Linux et services email
