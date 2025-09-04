@@ -9,7 +9,7 @@ Rôle : Développement complet, interface web, base de données, notifications e
 ---
 
 Capture d'écran 1: Page de login
-![Page de login](images/Page_login.png)  
+![Page de login](Images/Page_login.jpg)  
 
 Description : Pour la sécurité du service il est nécessaire d'avoir des identifiants pour pouvoir y accéder. Cette page s'occupe également des redirections intelligente, ainsi en fonction des rôles elle redirige les utilisateurs vers la page de formulaire. Les techniciens vers celle des techniciens et les administrateurs vers celle des administrateurs 
 
