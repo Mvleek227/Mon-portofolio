@@ -65,18 +65,15 @@ Note : Les captures d’écran sont fournies à titre illustratif. Le code sourc
 - Déploiement de stratégies de groupe (GPO) via les outils Windows (RSAT / GPMC)  
 - Automatisation de la configuration et déploiement de logiciels sur les postes Windows avec WinRM et Ansible.
 
-## Topologie AD Samba 4 (schéma simplifié)
+## Architecture Samba 4 (Active Directory)
 
-[Administrateur]
-      |
-      v
-+-----------------+
-| Serveur Samba 4 |
-| Contrôleur AD   |
-+-----------------+
-     |       |
-     v       v
-   [PC1]    [PC2]
+```mermaid
+graph TD
+    A[Utilisateur Windows] -->|Authentification AD| B[Samba 4 DC]
+    C[Utilisateur Linux] -->|Authentification LDAP/Kerberos| B
+    B -->|Application des GPO| A
+    B -->|Gestion DNS/DHCP| D[Services Réseau]
+```
 
 **Détails techniques:**
 - Le serveur Samba 4 agit comme contrôleur de domaine, gérant authentification et permissions des utilisateurs Windows.  
