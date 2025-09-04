@@ -76,7 +76,7 @@ graph TD
 ```
 
 **Détails techniques:**
-- Le serveur Samba 4 agit comme contrôleur de domaine, gérant authentification et permissions des utilisateurs Windows.  
+- Le serveur Samba 4 agit comme contrôleur de domaine, gérant authentification et permissions des utilisateurs Windows et Linux.  
 - Les GPO sont déployées via les outils Windows pour appliquer les politiques de sécurité et configurations logicielles sur les postes clients.  
 - L’accès distant et l’automatisation sont assurés par WinRM et Ansible, pour une meilleure maîtrise de la gestion à grande échelle et sécurisée des postes.  
 - Le schéma illustre le flux centralisé de gestion et sécurité, avec la possibilité d’automatisation complète pour l’administrateur.  
@@ -100,12 +100,25 @@ graph TD
 - Mise en place de Roundcube pour l’accès webmail  
 - Gestion des utilisateurs et des droits d’accès  
 
-## Flux de messagerie Postfix (schéma simplifié)
+## Architecture Postfix / Dovecot / Roundcube
 
-[Utilisateur 1] ----\
-                     \
-                      --> [Serveur Postfix + Dovecot] --> [Roundcube Webmail]
-[Utilisateur 2] ----/
+Ce schéma illustre le flux complet de mon système de messagerie interne basé sur Postfix, Dovecot et Roundcube :
+
+```mermaid
+sequenceDiagram
+    participant U as Utilisateur (Thunderbird/Webmail)
+    participant P as Postfix (MTA)
+    participant D as Dovecot (IMAP/POP3)
+    participant R as Roundcube (Webmail)
+    participant I as Internet
+
+    U->>P: Envoi Email (SMTP)
+    P->>I: Transfert vers Internet
+    I->>P: Réception Email
+    P->>D: Stockage Mail
+    U->>D: Récupération Mail (IMAP/POP3)
+    U->>R: Accès via navigateur
+```
 
 **Fonctionnement et flux :** 
 - Le serveur gère l’envoi et la réception des emails pour tous les utilisateurs.  
