@@ -133,3 +133,147 @@ Cette architecture permet à tout utilisateur d’envoyer et de recevoir des ema
 - Messagerie interne fonctionnelle et sécurisée  
 - Gestion simple des comptes utilisateurs  
 - Nouvelles aptitudes en administration de serveurs Linux et services email
+
+
+###Projet 4 : Système de Rappels Automatisés – Python (Desktop Application)
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Status](https://img.shields.io/badge/Status-Production-green)
+
+---
+
+## 📌 Présentation
+
+Ce projet est une application desktop développée en Python permettant d’automatiser les rappels d’échéances réglementaires (fiscales et sociales) pour un service de comptabilité.
+
+L'objectif est de réduire les oublis critiques et d'améliorer la gestion des obligations administratives dans un environnement professionnel.
+
+---
+
+## 🛠️ Stack technique
+
+- **Langage :** Python  
+- **UI :** Tkinter  
+- **Gestion images :** Pillow  
+- **Données :** JSON  
+- **Packaging :** PyInstaller  
+- **Automatisation :** Windows Task Scheduler  
+
+## 🎯 Problématique
+
+Dans de nombreuses organisations, les échéances fiscales et sociales reposent sur des rappels manuels ou la mémoire des employés, ce qui entraîne :
+
+- ❌ Risque élevé d’oubli  
+- ❌ Retards de déclaration  
+- ❌ Pénalités financières  
+- ❌ Mauvaise organisation interne  
+
+---
+
+## 💡 Solution proposée
+
+Une application légère et automatisée qui :
+
+- surveille les échéances
+- génère des rappels intelligents
+- affiche des notifications visuelles obligatoires
+- s'intègre au démarrage du système
+
+---
+
+## 🚀 Fonctionnalités principales
+
+### 🔔 Système de rappel intelligent
+- Notifications automatiques en popup
+- Rappels multi-niveaux :  
+  - J-7
+  - J-5  
+  - J-3  
+  - J-2  
+  - J-1  
+  - Jour J  
+
+---
+
+### 🎨 Interface utilisateur avancée
+- Interface graphique moderne avec Tkinter
+- Design professionnel inspiré des outils internes d’entreprise
+- Logo intégré
+- Affichage en cartes (cards UI)
+
+---
+
+### 🟧🔵 Gestion multi-catégories
+- Fiscal → Couleur Orange  
+- Social → Couleur Bleue  
+- Identification rapide des types d’échéances
+
+---
+
+### 📊 Indicateurs visuels
+- Compteur global des rappels actifs
+- Mise en avant des priorités
+- Hiérarchisation visuelle des informations
+
+---
+
+### 🔒 Interaction contrôlée
+- Popup non fermable (obligation de validation)
+- Bouton "J’ai pris connaissance"
+- Traçabilité des actions utilisateur
+
+---
+
+### 📝 Journalisation
+- Génération automatique de logs
+- Historique des rappels affichés
+- Suivi des validations utilisateur
+
+---
+
+### ⚙️ Automatisation système
+- Lancement automatique via Windows
+- Intégration avec le planificateur de tâches
+- Fonctionnement sans intervention utilisateur
+
+---
+
+### 📦 Déploiement
+- Compilation en exécutable (.exe)
+- Distribution sur postes utilisateurs
+- Installation simplifiée
+
+---
+
+## 📸 Aperçu de l'application
+
+<img width="3870" height="3240" alt="1000882094" src="https://github.com/user-attachments/assets/d41e7e62-3ef3-4554-bf18-e71d002eaa96" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
