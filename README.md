@@ -135,7 +135,7 @@ Cette architecture permet à tout utilisateur d’envoyer et de recevoir des ema
 - Nouvelles aptitudes en administration de serveurs Linux et services email
 
 
-###Projet 4 : Système de Rappels Automatisés – Python (Desktop Application)
+### Projet 4 : Système de Rappels Automatisés – Python (Desktop Application)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
