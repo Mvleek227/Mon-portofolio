@@ -314,7 +314,8 @@ Améliorer la disponibilité des infrastructures, réduire les temps d’interve
 ## Aperçu du dashboard principale de l'administrateur
 
 
-<img width="1460" height="922" alt="1000883275" src="https://github.com/user-attachments/assets/3679876f-adfd-4cd8-8d00-6867cca47238" />
+<img width="4380" height="2766" alt="1000883276" src="https://github.com/user-attachments/assets/ae4f3dfd-e18c-4e94-bd30-67f0da166f5b" />
+
 
 
 
