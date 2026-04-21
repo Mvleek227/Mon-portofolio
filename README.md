@@ -197,19 +197,13 @@ Une application légère et automatisée qui :
 ---
 
 ### 🎨 Interface utilisateur avancée
-- Interface graphique moderne avec Tkinter
+- Interface graphique moderne
 - Design professionnel inspiré des outils internes d’entreprise
 - Logo intégré
 - Affichage en cartes (cards UI)
 
 ---
 
-### 🟧🔵 Gestion multi-catégories
-- Fiscal → Couleur Orange  
-- Social → Couleur Bleue  
-- Identification rapide des types d’échéances
-
----
 
 ### 📊 Indicateurs visuels
 - Compteur global des rappels actifs
