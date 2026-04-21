@@ -245,8 +245,78 @@ Une application légère et automatisée qui :
 <img width="3870" height="3240" alt="1000882094" src="https://github.com/user-attachments/assets/d41e7e62-3ef3-4554-bf18-e71d002eaa96" />
 
 
+### Projets en cours 
+
+NOM DU PROJET : SmartInfra ERP
+
+STATUT : En cours de développement (phase MVP)
+
+DESCRIPTION :
+SmartInfra ERP est un projet logiciel en cours de développement conçu pour centraliser la gestion des infrastructures télécoms et énergétiques au sein d’une plateforme unique.
+Le système s’inspire des systèmes industriels de type OSS (Operational Support Systems) utilisés par les opérateurs télécoms et les tower companies, tout en étant simplifié et adapté aux réalités opérationnelles terrain en Afrique.
+Ses fonctions premières sont d’améliorer la disponibilité des infrastructures critiques, d’optimiser les opérations de maintenance et d’offrir une meilleure visibilité sur les équipements télécoms et énergétiques.
+
+OBJECTIFS :
+- Centraliser la gestion des sites télécoms (pylônes, stations, équipements)
+- Améliorer le suivi des interventions techniques terrain
+- Superviser les systèmes énergétiques (batteries, solaire, groupes électrogènes)
+- Optimiser la maintenance préventive et corrective
+- Fournir une visibilité en temps réel sur l’état des infrastructures
+
+MODULES FONCTIONNELS :
+
+1. GESTION DES SITES
+- Enregistrement et suivi des sites télécoms
+- Localisation géographique des infrastructures
+- Inventaire des équipements par site
+- Suivi de l’état opérationnel des sites
+
+2. GESTION DES INTERVENTIONS
+- Création et suivi des tickets d’incidents
+- Affectation des techniciens
+- Historique des interventions terrain
+- Suivi des statuts (ouvert, en cours, résolu)
+
+3. SUPERVISION ÉNERGÉTIQUE
+- Suivi des batteries et systèmes d’alimentation
+- Monitoring des installations solaires
+- Suivi des groupes électrogènes et consommation de carburant
+- Alertes en cas de panne ou seuil critique
+
+4. GESTION DES ÉQUIPEMENTS
+- Inventaire du matériel réseau et télécom
+- Affectation des équipements par site
+- Suivi des mouvements de stock
+- Historique des installations et remplacements
+
+5. GESTION DES TECHNICIENS
+- Profils et rôles des techniciens
+- Planification des interventions terrain
+- Affectation des missions
+- Suivi des activités et rapports
+
+6. DASHBOARD & ANALYTICS
+- Vue globale de l’état du réseau
+- Sites en panne ou critiques
+- Interventions en cours
+- Indicateurs de performance (KPI maintenance)
+
+STACK TECHNIQUE :
+- Frontend : Flutter (Web & Mobile)
+- Backend : Supabase (PostgreSQL, Auth, API temps réel)
+- Base de données : PostgreSQL
+- Architecture : Système ERP modulaire avec synchronisation en temps réel
+
+POSITIONNEMENT :
+Ce projet simule un système de type OSS/ERP utilisé dans la gestion des infrastructures télécoms, avec un accent sur l’efficacité opérationnelle et la gestion terrain.
+
+OBJECTIF FINAL :
+Améliorer la disponibilité des infrastructures, réduire les temps d’intervention et optimiser la gestion de la maintenance grâce à une plateforme centralisée.
+
+## Aperçu du dashboard principale de l'administrateur
 
 
+<img width="1460" height="922" alt="1000883275" src="https://github.com/user-attachments/assets/3679876f-adfd-4cd8-8d00-6867cca47238" />
 
 
 
