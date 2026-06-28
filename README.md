@@ -182,7 +182,7 @@ Une application légère et automatisée qui :
 
 ---
 
-### 🔔 Système de rappel intelligent
+## 🔔 Système de rappel intelligent
 - Notifications automatiques en popup
 - Rappels multi-niveaux :  
   - J-7
@@ -194,7 +194,7 @@ Une application légère et automatisée qui :
 
 ---
 
-### 🎨 Interface utilisateur avancée
+## 🎨 Interface utilisateur avancée
 - Interface graphique moderne
 - Design professionnel inspiré des outils internes d’entreprise
 - Logo intégré
@@ -203,35 +203,35 @@ Une application légère et automatisée qui :
 ---
 
 
-### 📊 Indicateurs visuels
+## 📊 Indicateurs visuels
 - Compteur global des rappels actifs
 - Mise en avant des priorités
 - Hiérarchisation visuelle des informations
 
 ---
 
-### 🔒 Interaction contrôlée
+## 🔒 Interaction contrôlée
 - Popup non fermable (obligation de validation)
 - Bouton "J’ai pris connaissance"
 - Traçabilité des actions utilisateur
 
 ---
 
-### 📝 Journalisation
+## 📝 Journalisation
 - Génération automatique de logs
 - Historique des rappels affichés
 - Suivi des validations utilisateur
 
 ---
 
-### ⚙️ Automatisation système
+## ⚙️ Automatisation système
 - Lancement automatique via Windows
 - Intégration avec le planificateur de tâches
 - Fonctionnement sans intervention utilisateur
 
 ---
 
-### 📦 Déploiement
+## 📦 Déploiement
 - Compilation en exécutable (.exe)
 - Distribution sur postes utilisateurs
 - Installation simplifiée
@@ -241,102 +241,3 @@ Une application légère et automatisée qui :
 ## 📸 Aperçu de l'application
 
 <img width="3870" height="3240" alt="1000882094" src="https://github.com/user-attachments/assets/d41e7e62-3ef3-4554-bf18-e71d002eaa96" />
-
-
-### Projets en cours 
-
-**NOM DU PROJET : SmartInfra ERP**
-
-**STATUT : En cours de développement (phase MVP)**
-
-## DESCRIPTION :
-SmartInfra ERP est un projet logiciel en cours de développement conçu pour centraliser la gestion des infrastructures télécoms et énergétiques au sein d’une plateforme unique.
-Le système s’inspire des systèmes industriels de type OSS (Operational Support Systems) utilisés par les opérateurs télécoms et les tower companies, tout en étant simplifié et adapté aux réalités opérationnelles terrain en Afrique.
-Ses fonctions premières sont d’améliorer la disponibilité des infrastructures critiques, d’optimiser les opérations de maintenance et d’offrir une meilleure visibilité sur les équipements télécoms et énergétiques.
-
-## OBJECTIFS :
-- Centraliser la gestion des sites télécoms (pylônes, stations, équipements)
-- Améliorer le suivi des interventions techniques terrain
-- Superviser les systèmes énergétiques (batteries, solaire, groupes électrogènes)
-- Optimiser la maintenance préventive et corrective
-- Fournir une visibilité en temps réel sur l’état des infrastructures
-
-## MODULES FONCTIONNELS :
-
-**1. GESTION DES SITES**
-- Enregistrement et suivi des sites télécoms
-- Localisation géographique des infrastructures
-- Inventaire des équipements par site
-- Suivi de l’état opérationnel des sites
-
-**2. GESTION DES INTERVENTIONS**
-- Création et suivi des tickets d’incidents
-- Affectation des techniciens
-- Historique des interventions terrain
-- Suivi des statuts (ouvert, en cours, résolu)
-
-**3. SUPERVISION ÉNERGÉTIQUE**
-- Suivi des batteries et systèmes d’alimentation
-- Monitoring des installations solaires
-- Suivi des groupes électrogènes et consommation de carburant
-- Alertes en cas de panne ou seuil critique
-
-**4. GESTION DES ÉQUIPEMENTS**
-- Inventaire du matériel réseau et télécom
-- Affectation des équipements par site
-- Suivi des mouvements de stock
-- Historique des installations et remplacements
-
-**5. GESTION DES TECHNICIENS**
-- Profils et rôles des techniciens
-- Planification des interventions terrain
-- Affectation des missions
-- Suivi des activités et rapports
-
-**6. DASHBOARD & ANALYTICS**
-- Vue globale de l’état du réseau
-- Sites en panne ou critiques
-- Interventions en cours
-- Indicateurs de performance (KPI maintenance)
-
-## STACK TECHNIQUE :
-- Frontend : Flutter (Web & Mobile)
-- Backend : Supabase (PostgreSQL, Auth, API temps réel)
-- Base de données : PostgreSQL
-- Architecture : Système ERP modulaire avec synchronisation en temps réel
-
-## POSITIONNEMENT :
-Ce projet simule un système de type OSS/ERP utilisé dans la gestion des infrastructures télécoms, avec un accent sur l’efficacité opérationnelle et la gestion terrain.
-
-## OBJECTIF FINAL :
-Améliorer la disponibilité des infrastructures, réduire les temps d’intervention et optimiser la gestion de la maintenance grâce à une plateforme centralisée.
-
-## Aperçu du dashboard principale de l'administrateur
-
-
-<img width="4380" height="2766" alt="1000883276" src="https://github.com/user-attachments/assets/ae4f3dfd-e18c-4e94-bd30-67f0da166f5b" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
